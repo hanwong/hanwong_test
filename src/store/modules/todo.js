@@ -14,7 +14,7 @@ const actions = {
   async setTodos ({commit}) {
     return await axios.get('https://jsonplaceholder.typicode.com/todos')
       .then((res) => {
-        console.log(res)
+        commit('SET_TODOS', res.data)
         return true
       })
       .catch((error) => {

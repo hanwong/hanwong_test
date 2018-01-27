@@ -98,9 +98,6 @@ export default {
 </script>
 
 <style>
-.el-row {
-  margin-bottom: 1rem;
-}
 .el-table__header th {
   background-color: #f5f7fa;
 }

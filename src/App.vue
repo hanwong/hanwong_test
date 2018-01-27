@@ -23,5 +23,8 @@ section {
   margin: 0 auto;
   width: 70%;
 }
+.el-row {
+  margin-bottom: 1rem;
+}
 
 </style>
