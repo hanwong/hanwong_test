@@ -26,6 +26,7 @@
           >
           <el-table-column
             type="index"
+            width="100"
             label="순서">
           </el-table-column>
           <el-table-column
@@ -33,6 +34,7 @@
             label="할 일">
           </el-table-column>
           <el-table-column
+            width="100"
             label="기능">
             <template slot-scope="scope">
               <el-button

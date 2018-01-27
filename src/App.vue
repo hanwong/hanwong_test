@@ -19,6 +19,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+h2, p {
+  text-decoration: underline;
+}
 section {
   margin: 0 auto;
   width: 70%;
