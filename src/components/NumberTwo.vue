@@ -71,11 +71,11 @@ export default {
     ]),
     tableRowClassName({row, rowIndex}) {
       if (row.completed) {
-        return 'success-row';
+        return 'success-row'
       } else {
-        return 'warning-row';
+        return 'warning-row'
       }
-      return '';
+      return ''
     }
   },
 
